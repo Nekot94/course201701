@@ -1,0 +1,7 @@
+import os
+print(os.getcwd())
+path = os.getcwd()
+for f in os.listdir(path):
+	print(f) 
+
+	os.rename(f, "vog") 	
