@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weapons>
+	<melee comment = 'Ближний бой'>
+		<name>Sword</name>
+		<damage>100</damage>
+	</melee>
+
+	<range comment = 'Дальний бой'>
+		<name>Bow</name>
+		<damage>120</damage>
+	</range>
+</weapons>
