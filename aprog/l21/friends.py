@@ -26,3 +26,7 @@ for f_id, f_name in zip(friends_id, friends_name):
 
 friends.sort(key=lambda x: -x[1])
 print(friends)
+
+
+
+

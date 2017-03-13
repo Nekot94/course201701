@@ -1,0 +1,3 @@
+title=SoundPanel
+author=Amin
+orientation=landscape
