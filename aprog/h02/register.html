@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Региструй меня</title>
+</head>
+<body>
+	<form name="register" action="abdulakdir.php">
+		<label>Имя: </label>
+		<input type="text" name="name" placeholder="Имя" required>
+		<br><br>
+
+		<label>Почта: </label>
+		<input type="email" name="email" placeholder="example@gmail.com">
+		<br><br>
+
+		<label>Пароль: </label>
+		<input type="password" name="password">
+		<br><br>
+		
+		<label>IQ: </label>
+		<input type="number" name="iq" min="0" max="200">
+		<br><br>
+
+		<label>Дата рождения: </label>
+		<input type="date" name="date">
+		<br><br>
+
+		<label>Пол: </label>
+		<br>
+		<label>Мудской: </label>
+		<input type="radio" name="xy" value="man">
+		<label>Женский: </label>
+		<input type="radio" name="xy" value="woman" checked="checked">
+		<br><br>
+
+		<label>Прикрепить фото </label>
+		<input type="file" name="photo">
+		<br><br>
+
+		<label>О себе </label>
+		<br>
+		<textarea rows="10"></textarea>
+		<br><br>
+
+		<label>Гора: </label>
+		<select name="mountain">
+			<option value="1">Тарки-Тау</option>
+			<option value="2">Пушкин-Тау</option>
+			<option value="3">Эльбрус</option>
+		</select>
+		<br><br>
+
+
+
+		<input type="submit" name="ok" value="Окей">
+		<input type="reset" name="reset" value="Атмена">
+
+	</form>
+</body>
+</html>
