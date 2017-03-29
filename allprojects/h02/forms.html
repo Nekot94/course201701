@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1>Войдите мистер и молви друг</h1>
+	<form action="tables.html">
+		<label>Имя: </label>
+		<input type="text" name="name" placeholder="Имя"> 
+		<br><br>
+
+		<label>Пароль: </label>
+		<input type="password" name="pass"> 
+		<br><br>
+
+		<label>Почта: </label>
+		<input type="email" name="email"> 
+		<br><br>
+
+		<label>Пол: </label>
+		<br>
+		<label>Мужской: </label>
+		<input type="radio" name="gender" value="man">
+		<label>Женский: </label>
+		<input type="radio" name="gender" value="woman">  
+		<br><br>
+
+		<label>Дата рождения: </label>
+		<input type="date" name="date"> 
+		<br><br>
+
+		<label>О себе: </label>
+		<br>
+		<textarea rows="10"></textarea> 
+		<br><br>
+		
+		<label>Город: </label>
+		<select>
+		  <option>Махачкала</option>
+		  <option>Исляндия</option>
+		</select>
+		<br><br>
+
+		<label>Прикрепить фото: </label>
+		<input type="file" name="photo"> 
+		<br><br>
+
+		<input type="submit" name="ok" value="Оки" > 
+		<input type="reset" name="reset" value="Отмена">
+	</form>
+	<button id="butt1">Просто кнопка</button>
+</body>
+</html>
