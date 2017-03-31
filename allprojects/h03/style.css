@@ -1,0 +1,16 @@
+h1 {
+	text-align: right;
+}
+
+p {
+	color: blue;
+}
+
+.better {
+	padding-left: 20px;
+	color: aquamarine; 
+}
+
+.bad {
+	background-color: red;
+}

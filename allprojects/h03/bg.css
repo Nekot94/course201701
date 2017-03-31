@@ -1,0 +1,10 @@
+body {
+	background-color: #08331c;
+	background-image: url(mafia.jpg), url(sans.jpg);
+	background-size: 30%, 100%;
+	background-repeat: no-repeat;
+	background-position: right top, right bottom;
+	background-attachment: fixed;
+	color: #FFFFFF;
+}
+
