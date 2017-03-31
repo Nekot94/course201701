@@ -1,0 +1,10 @@
+body {
+	// background-color: #444;
+	// background-image: url(amin.jpg), url(ak.jpg);
+	// background-size: 40%;
+	// background-repeat: no-repeat;
+	// background-position: top right, bottom right;
+	// background-attachment: fixed;
+
+	background: url(amin.jpg) no-repeat top right #444;
+}

@@ -1,0 +1,17 @@
+h1 {
+	color: slateblue;
+}
+
+.col1 {
+	color: rgb(255, 128, 128);
+}
+
+.col2 {
+	color: #72beaf;
+	background-color: #228;
+}
+
+.col3 {
+	color: hsl(0,50%, 20%);
+}
+
