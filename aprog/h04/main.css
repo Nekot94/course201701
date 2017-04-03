@@ -1,0 +1,25 @@
+h1{
+	background-color: red;
+	color: #FF0;
+}
+body{
+	background-color: red;
+}
+
+.kek{
+	font-size: 50px;
+}
+#hello{
+	color:#FF2288;
+}
+.test {
+	box-sizing: border-box;
+	margin: 30px 15px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	border: 3px solid yellow;
+	border-radius: 4px;
+
+}

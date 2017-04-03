@@ -1,0 +1,38 @@
+ul {
+	list-style-type: square;
+	list-style-type: none;
+}
+
+ol {
+	list-style-type: upper-roman;
+	list-style-type: upper-latin;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 10px 12px;
+	border: 1px solid black;
+}
+
+a {
+	color: red;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+a:hover {
+	color: magenta;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: yellow;
+}
+
+a:active {
+	color: orange;
+}
