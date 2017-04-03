@@ -1,0 +1,63 @@
+@font-face {
+	font-family: bighouse;
+	src: url(bighouse.ttf);
+}
+
+body {
+	font-size: 100%;
+}
+.first {
+	color: #888;
+	text-align: center;
+	text-align: right;
+	text-align: left;
+	
+	text-decoration: underline;
+	text-decoration: overline;
+	text-decoration: line-through;
+	text-decoration: none;
+	
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+
+	text-indent: 100px;
+	letter-spacing: 3px;
+	letter-spacing: -1px;
+
+	line-height: 1.2;
+
+	//direction: rtl;
+	
+	word-spacing: 10px;
+
+	text-shadow: 1px 0.7px #F00;
+
+
+}
+
+.shadow{
+	padding: 10px 15px;
+	text-shadow: 10px 5px 2px 0.1px #F00, 0 0 10px 10px #FA0;
+	box-shadow: 0 0 10px 1px #777;
+}
+
+.second {
+	font-size: 1.5em;
+	// font-weight: bold;
+	// font-variant: small-caps;
+	// font-style: italic;
+	// font-family: "Arial", sans-serif;
+	// font-family: "Lucida Console", monospace;
+	font-family: "Georgia", serif;
+}
+
+h2 {
+	color: #66FF33;
+	font-family: bighouse, "Georgia", serif;
+	font-size: 4em;
+}
+
+h2 .orange {
+	color: #FFAA33;
+}

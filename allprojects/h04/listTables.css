@@ -1,0 +1,58 @@
+ul {
+	background-color: wheat;
+	list-style-type: none;
+	list-style-type: square;
+
+}
+ul li {
+	background-color: #EEF;	
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+
+tr:nth-child(even) {
+	background-color: wheat;
+}
+
+tr:hover {
+	background-color: #666; 
+}
+
+th {
+	background-color: #6F6;
+	color: #EEE;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+}
+
+a {
+	color: #F57;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F5F;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #5F7;
+}
+
+a:active {
+	color: #F73;
+}
