@@ -1,0 +1,23 @@
+img {
+	width: 100px;
+}
+
+.float1 {
+	float: right;
+}
+
+.float2 {
+	float: left;
+}
+
+.container {
+	border: 1px solid red;
+	overflow: auto;
+}
+
+
+
+// .cancel {
+// 	clear: right;
+// }
+

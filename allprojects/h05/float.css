@@ -1,0 +1,30 @@
+img {
+	width: 100px;
+}
+
+.float1 {
+	float: left;
+}
+
+div {
+	border:1px solid red;
+}
+
+.float2 {
+	float: right;
+}
+
+
+/*.afloat2 {
+	clear: left;
+} */
+
+// .cont1, .cont2 {
+// 	overflow: auto;
+// }
+
+.cont1::after {
+	content: "";
+	clear: both;
+	display: table;
+}

@@ -1,0 +1,47 @@
+.cool {
+	border: 1px solid blue;
+	padding: 12px;
+}
+
+.st {
+	position: static;
+}
+
+.rl {
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.fx {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.abs {
+	position: absolute;
+	left: 50px;
+	bottom: 0px;
+}
+
+.arslan {
+	overflow: auto;
+	background-color: #F3F;
+	width: 228px;
+	height: 228px;
+}
+
+img {
+	width: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}

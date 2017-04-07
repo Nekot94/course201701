@@ -1,0 +1,29 @@
+
+
+a {
+	display: inline-block;
+	width: 150px;
+	background-color: violet;
+	color: black;
+	font-size: 40px;
+	margin-left: 200px;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #F5E;
+
+}
+
+a:active {
+	box-shadow: 3px 3px 3px #878 inset;
+
+}
+
+.first {
+	// display: none;
+	visibility: hidden;
+}

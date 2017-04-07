@@ -1,0 +1,21 @@
+.mirvet {
+	display: block;
+	width: 100px;
+	background: #F1F1F1;
+	color: #F58;
+	text-decoration: none;
+	padding: 15px 50px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.mirvet:hover {
+	background: #E5E5E5;
+	box-shadow: 0.5px 0.6px 1px #666;
+}
+
+.block {
+	/*display: none;*/
+	visibility: hidden;	
+}

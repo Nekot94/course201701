@@ -1,0 +1,64 @@
+body {
+	background-color: #EEE;
+	margin: 0;
+	padding: 0;
+}	
+
+div {
+	width: 500px;
+	height: 200px;
+	border: 1px solid aquamarine;
+	box-sizing: border-box;
+}
+
+
+.align1 {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+/*
+.align2 {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	margin: auto;
+}*/
+
+.align3 {
+	float:right;
+}
+
+.align4 {
+	clear: both;
+}
+
+.align5 {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.align6 {
+	line-height: 200px;
+}
+
+.align6 p {
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.container {
+	position:relative;
+}
+
+.align7 {
+	margin:0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
