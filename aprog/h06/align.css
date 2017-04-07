@@ -1,0 +1,58 @@
+div {
+	border: 1px solid #FF4444;
+	width: 200px;
+	height: 200px;
+}
+
+.align1 {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+img {
+	width: 100px;
+}
+
+.align3 {
+	float: right;
+}
+
+.align5 {
+	clear: both;
+}
+
+/*.align4 {
+	position: absolute;
+	right: 0;
+}*/
+
+.align6 {
+	box-sizing: border-box;
+	padding: 92px;
+
+
+}
+
+.align7{
+	line-height: 200px;
+	text-align: center;
+}
+
+.align7 > p {
+	line-height: 1;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.container {
+	position: relative;
+}
+
+.align8 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
