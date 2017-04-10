@@ -1,0 +1,24 @@
+div {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255,0,0,0.5);
+	border: 3px solid #F00;
+	/* opacity: 0.2; */
+}
+
+.transition1 {
+	transition: width 1s 2s, font 5s;
+}
+
+.transition1:hover {
+	width: 250px;
+	font-size: 2em;
+}
+
+.transition2 {
+	transition: transform 4s ease;
+}
+
+.transition2:hover {
+	transform: rotateX(180deg);
+}

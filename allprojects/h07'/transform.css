@@ -1,0 +1,33 @@
+div {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(255,0,0,0.5);
+	border: 3px solid #F00;
+	/* opacity: 0.2; */
+}
+
+.transform1 {
+	-webkit-transform: translate(150px,100px);
+	-ms-transform: translate(150px,100px);
+	transform: translate(150px,100px);
+}
+
+.transform2 {
+	transform: rotate(40deg);
+}
+
+.transform3 {
+	transform: scale(0.8,1.2);
+}
+
+.transform4 {
+	/*transform: skewX(20deg);*/
+	/*transform: skewY(20deg);*/
+	transform: skew(30deg,-45deg);
+}
+
+.transform5 {
+	transform: rotateX(70deg);
+	transform: rotateY(50deg);
+	transform: rotateZ(45deg);
+}

@@ -1,0 +1,19 @@
+@keyframes wzhuh {
+	from { background-color: #F00; }
+	to {background-color: #00F; }
+}
+
+@keyframes wzhuh2 {
+	0% { background-color: #F00; transform: translate(0);}
+	25% {background-color: #0F0; transform: translate(100px,10px);}
+	50% {background-color: #000; transform: translate(50px,0px);}
+	75% {background-color: #0FF; transform: translate(-60px,-10px);}
+	100% {background-color: #0F0; transform: translate(0);}
+}
+
+.poezd {
+	width: 200px;
+	height: 100px;
+	background-color: #777;
+	animation: wzhuh2 2s infinite 4s reverse;
+}
