@@ -1,0 +1,15 @@
+div {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0,255,0,0.4);
+	border: 3px solid #0F0;
+	/*opacity: 0.4;*/
+	transition: width 2s, box-shadow 1.5s 3s, transform 10s ease;
+
+}
+
+.transition1:hover{
+	width:250px;
+	box-shadow: 2px 2px 5px #666;
+	transform: rotateX(180deg);
+}

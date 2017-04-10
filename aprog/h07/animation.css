@@ -1,0 +1,20 @@
+@keyframes kit {
+	from { background-color: #00A; }
+	to  { background-color: #7A0; }
+}
+
+@keyframes kit2 {
+	0% { background-color: #007; transform: translate(0, 0); }
+	25%  { background-color: #700; transform: translate(54px, 2px);}
+	75%  { background-color: #000; transform: translate(125px, 45px);}
+	100%  { background-color: #007; transform: translate(0, 0);}
+}
+
+
+.javid {
+	width: 500px;
+	height: 100px;
+	background-color: #007;
+	color: #FFF;
+	animation: kit2 0.5s infinite 3s reverse ease;
+}
