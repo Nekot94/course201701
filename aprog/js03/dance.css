@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style:none;
+}
+
+.tab-panels ul li{
+	display: inline-block;
+	background-color: #F57;
+	margin: 0;
+	padding: 5px 10px;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.tab-panels ul li:hover,.tab-panels ul li.active{
+	background-color: #6F6;
+
+}
+
+.tab-panels .panel{
+	display: none;
+	background-color: #eee;
+	border: 1px solid #aaa;
+
+}
+
+.tab-panels .panel.active{
+	display: block;
+	
+}
